@@ -1,4 +1,9 @@
-interface Calci
-{
-public int getSum(int n1,int n2);
+interface Calci {
+    public int getSum(int n1, int n2);
+}
+
+class CalsiImpl implements Calci {
+    public int getSum(int n1, int n2) {
+        return n1 + n2;
+    };
 }
